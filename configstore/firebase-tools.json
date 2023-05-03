@@ -1,0 +1,14 @@
+{
+	"analytics-uuid": "c0f83319-b113-4481-807c-65b1582dee74",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1679581848099
+	},
+	"lastError": 1679582256254
+}

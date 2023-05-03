@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "create-next-app": "^13.2.4",
+    "neovim": "^4.10.1",
+    "tree-sitter-cli": "^0.20.1"
+  }
+}

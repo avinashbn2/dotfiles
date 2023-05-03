@@ -1,0 +1,4 @@
+lvim
+  plugin
+     packer_compiled.lua
+   config.lua

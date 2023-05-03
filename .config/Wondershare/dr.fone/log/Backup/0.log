@@ -1,0 +1,175 @@
+18-02-2023 23:06:25 Program.InitCustomize
+18-02-2023 23:06:26 InitDataBaseInfo Success
+18-02-2023 23:06:27 /Users/.Android
+18-02-2023 23:06:27 App Version :12.4.14.334
+18-02-2023 23:06:27 <USB DEBUG> start requesting...
+18-02-2023 23:06:27 InitApp End
+18-02-2023 23:06:28 ConnectionScanTask start
+18-02-2023 23:06:28 RegisterUSBDevicesNotify handle:140628704907600
+18-02-2023 23:06:28 MacUsbNotifier  StartMonitor start
+18-02-2023 23:06:28 MacUsbNotifier  StopMonitor
+18-02-2023 23:06:28 MacOS  StartMonitorWorker start
+18-02-2023 23:06:28 MacUsbNotifier  DoListen start
+18-02-2023 23:06:28 MacUsb DeviceConnectCallback 
+18-02-2023 23:06:28 <USB DEBUG> start parsing json...
+18-02-2023 23:06:28 <USB DEBUG> value compare: 1-1
+18-02-2023 23:06:28 ConnectionHub OnDeviceArrival:IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd2@2280000/AppleT6000USBXHCI@02000000/usb-drd2-port-hs@02100000/iPhone@02100000
+18-02-2023 23:06:28 AddUSBConnection deviceId: IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd2@2280000/AppleT6000USBXHCI@02000000/usb-drd2-port-hs@02100000/iPhone@02100000
+18-02-2023 23:06:28 ConnectionHub.FoundDevice
+18-02-2023 23:06:28 	Id=IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd2@2280000/AppleT6000USBXHCI@02000000/usb-drd2-port-hs@02100000/iPhone@02100000
+18-02-2023 23:06:28 	Manufacturer=Apple Inc.
+18-02-2023 23:06:28 	Product=iPhone
+18-02-2023 23:06:28 	FriendlyName=iPhone
+18-02-2023 23:06:28 	SN=000081010004505E0E91001E
+18-02-2023 23:06:28 	VID=1452
+18-02-2023 23:06:28 	PID=4776
+18-02-2023 23:06:28 	Class=0
+18-02-2023 23:06:28 	SubClass=0
+18-02-2023 23:06:28 	Protocol=0
+18-02-2023 23:06:28 AddUSBConnection VID:05ac PID:12a8 Manufacturer:Apple Inc. Product:iPhone
+18-02-2023 23:06:28 MacOS  StartEnumeratorWorker start
+18-02-2023 23:06:28 MacOS  StartEnumeratorWorker while (!bExit) 
+18-02-2023 23:06:28 MacOS  StartEnumeratorWorker ScanMacUSB   
+18-02-2023 23:06:29 USBDeviceBaseInfo::GetDeviceInfo GetDeviceFromRemote VID:05ac PID:12a8 Manufacturer:Apple Inc. Product:iPhone
+18-02-2023 23:06:29 	FriendlyName=
+18-02-2023 23:06:29 ConnectionHub.AddConnection(IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd2@2280000/AppleT6000USBXHCI@02000000/usb-drd2-port-hs@02100000/iPhone@02100000, iOS, 000081010004505E0E91001E)
+18-02-2023 23:06:29 Connection inserter Start
+18-02-2023 23:06:29 Connection inserter create new device
+18-02-2023 23:06:29 Connection inserter device is iOS
+18-02-2023 23:06:29 Connection inserter AddService
+18-02-2023 23:06:29 Device manager add device SerialNumber: 000081010004505E0E91001E
+18-02-2023 23:06:29 ConnectionHub OnDeviceArrival:IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd0@2280000/AppleT6000USBXHCI@00000000/usb-drd0-port-ss@00200000/Belkin USB-C Multimedia Hub@00200000/AppleUSB30Hub@00200000/AppleUSB30HubPort@00240000/USB 10/100/1000 LAN@00240000
+18-02-2023 23:06:29 AddUSBConnection deviceId: IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd0@2280000/AppleT6000USBXHCI@00000000/usb-drd0-port-ss@00200000/Belkin USB-C Multimedia Hub@00200000/AppleUSB30Hub@00200000/AppleUSB30HubPort@00240000/USB 10/100/1000 LAN@00240000
+18-02-2023 23:06:29 ConnectionHub.FoundDevice
+18-02-2023 23:06:29 	Id=IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd0@2280000/AppleT6000USBXHCI@00000000/usb-drd0-port-ss@00200000/Belkin USB-C Multimedia Hub@00200000/AppleUSB30Hub@00200000/AppleUSB30HubPort@00240000/USB 10/100/1000 LAN@00240000
+18-02-2023 23:06:29 	Manufacturer=Realtek
+18-02-2023 23:06:29 	Product=USB 10_100_1000 LAN
+18-02-2023 23:06:29 	FriendlyName=USB 10/100/1000 LAN
+18-02-2023 23:06:29 	SN=001000001
+18-02-2023 23:06:29 	VID=3034
+18-02-2023 23:06:29 	PID=33107
+18-02-2023 23:06:29 	Class=0
+18-02-2023 23:06:29 	SubClass=0
+18-02-2023 23:06:29 	Protocol=0
+18-02-2023 23:06:29 AddUSBConnection VID:0bda PID:8153 Manufacturer:Realtek Product:USB 10_100_1000 LAN
+18-02-2023 23:06:29 Read device database error:System.Data.SQLite.SQLiteException (0x80004005): SQLite error
+no such table: t_deviceinfo
+  at System.Data.SQLite.SQLite3.Prepare (System.Data.SQLite.SQLiteConnection cnn, System.String strSql, System.Data.SQLite.SQLiteStatement previous, System.UInt32 timeoutMS, System.String& strRemain) [0x00236] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.BuildNextCommand () [0x000eb] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.GetStatement (System.Int32 index) [0x0000b] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteCommand.GetStatement(int)
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x000db] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x00051] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x00006] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader (System.Data.CommandBehavior behavior) [0x00000] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x00000] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.FillInternal (System.Data.DataSet dataset, System.Data.DataTable[] datatables, System.Int32 startRecord, System.Int32 maxRecords, System.String srcTable, System.Data.IDbCommand command, System.Data.CommandBehavior behavior) [0x0003f] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable[] dataTables, System.Int32 startRecord, System.Int32 maxRecords, System.Data.IDbCommand command, System.Data.CommandBehavior behavior) [0x0007c] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00034] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter.Fill(System.Data.DataTable)
+  at WMM.Common.Data.SqliteHelper+CommandDataAdapter.FillTable () [0x00019] in <16f25378cdf4493b9972a61214a9dfd2>:0 
+  at WMM.Common.Data.SqliteHelper.ExecuteDataTable (System.String cmdText, System.Data.SQLite.SQLiteParameter[] p) [0x00010] in <16f25378cdf4493b9972a61214a9dfd2>:0 
+  at WMM.Common.Data.SqliteHelper.ExecuteDataTable (System.String cmdText) [0x00000] in <16f25378cdf4493b9972a61214a9dfd2>:0 
+  at WMM.Device.Connection.USBDriverManager.GetDeviceInfo (WMM.Device.DeviceNodeInfo devinfo) [0x003a5] in <164ae7037fda4f9b974c53f366bc5928>:0 
+18-02-2023 23:06:29 USBDeviceBaseInfo::CreateUnknownBaseInfo VID:0bda PID:8153 Manufacturer:Realtek Product:USB 10_100_1000 LAN
+18-02-2023 23:06:29 	FriendlyName=
+18-02-2023 23:06:29 ConnectionHub OnDeviceArrival:IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd0@2280000/AppleT6000USBXHCI@00000000/usb-drd0-port-ss@00200000/Belkin USB-C Multimedia Hub@00200000/AppleUSB30Hub@00200000/AppleUSB30HubPort@00220000/External@00220000
+18-02-2023 23:06:29 AddUSBConnection deviceId: IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd0@2280000/AppleT6000USBXHCI@00000000/usb-drd0-port-ss@00200000/Belkin USB-C Multimedia Hub@00200000/AppleUSB30Hub@00200000/AppleUSB30HubPort@00220000/External@00220000
+18-02-2023 23:06:29 ConnectionHub.FoundDevice
+18-02-2023 23:06:29 	Id=IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd0@2280000/AppleT6000USBXHCI@00000000/usb-drd0-port-ss@00200000/Belkin USB-C Multimedia Hub@00200000/AppleUSB30Hub@00200000/AppleUSB30HubPort@00220000/External@00220000
+18-02-2023 23:06:29 	Manufacturer=Generic 
+18-02-2023 23:06:29 	Product=External
+18-02-2023 23:06:29 	FriendlyName=External
+18-02-2023 23:06:29 	SN=573736364550333920202020
+18-02-2023 23:06:29 	VID=5117
+18-02-2023 23:06:29 	PID=14624
+18-02-2023 23:06:29 	Class=0
+18-02-2023 23:06:29 	SubClass=0
+18-02-2023 23:06:29 	Protocol=0
+18-02-2023 23:06:29 AddUSBConnection VID:13fd PID:3920 Manufacturer:Generic  Product:External
+18-02-2023 23:06:29 Read device database error:System.Data.SQLite.SQLiteException (0x80004005): SQLite error
+no such table: t_deviceinfo
+  at System.Data.SQLite.SQLite3.Prepare (System.Data.SQLite.SQLiteConnection cnn, System.String strSql, System.Data.SQLite.SQLiteStatement previous, System.UInt32 timeoutMS, System.String& strRemain) [0x00236] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.BuildNextCommand () [0x000eb] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.GetStatement (System.Int32 index) [0x0000b] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteCommand.GetStatement(int)
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x000db] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x00051] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x00006] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader (System.Data.CommandBehavior behavior) [0x00000] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x00000] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.FillInternal (System.Data.DataSet dataset, System.Data.DataTable[] datatables, System.Int32 startRecord, System.Int32 maxRecords, System.String srcTable, System.Data.IDbCommand command, System.Data.CommandBehavior behavior) [0x0003f] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable[] dataTables, System.Int32 startRecord, System.Int32 maxRecords, System.Data.IDbCommand command, System.Data.CommandBehavior behavior) [0x0007c] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00034] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter.Fill(System.Data.DataTable)
+  at WMM.Common.Data.SqliteHelper+CommandDataAdapter.FillTable () [0x00019] in <16f25378cdf4493b9972a61214a9dfd2>:0 
+  at WMM.Common.Data.SqliteHelper.ExecuteDataTable (System.String cmdText, System.Data.SQLite.SQLiteParameter[] p) [0x00010] in <16f25378cdf4493b9972a61214a9dfd2>:0 
+  at WMM.Common.Data.SqliteHelper.ExecuteDataTable (System.String cmdText) [0x00000] in <16f25378cdf4493b9972a61214a9dfd2>:0 
+  at WMM.Device.Connection.USBDriverManager.GetDeviceInfo (WMM.Device.DeviceNodeInfo devinfo) [0x003a5] in <164ae7037fda4f9b974c53f366bc5928>:0 
+18-02-2023 23:06:29 USBDeviceBaseInfo::CreateUnknownBaseInfo VID:13fd PID:3920 Manufacturer:Generic  Product:External
+18-02-2023 23:06:29 	FriendlyName=
+18-02-2023 23:06:29 ConnectionHub OnDeviceArrival:IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd0@2280000/AppleT6000USBXHCI@00000000/usb-drd0-port-hs@00100000/Belkin USB-C Multimedia Hub@00100000/AppleUSB20Hub@00100000/AppleUSB20HubPort@00140000/USB 2.0 Hub@00140000/AppleUSB20Hub@00140000/AppleUSB20HubPort@00143000/Belkin USB-C Multimedia Hub@00143000
+18-02-2023 23:06:29 AddUSBConnection deviceId: IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd0@2280000/AppleT6000USBXHCI@00000000/usb-drd0-port-hs@00100000/Belkin USB-C Multimedia Hub@00100000/AppleUSB20Hub@00100000/AppleUSB20HubPort@00140000/USB 2.0 Hub@00140000/AppleUSB20Hub@00140000/AppleUSB20HubPort@00143000/Belkin USB-C Multimedia Hub@00143000
+18-02-2023 23:06:29 ConnectionHub.FoundDevice
+18-02-2023 23:06:29 	Id=IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd0@2280000/AppleT6000USBXHCI@00000000/usb-drd0-port-hs@00100000/Belkin USB-C Multimedia Hub@00100000/AppleUSB20Hub@00100000/AppleUSB20HubPort@00140000/USB 2.0 Hub@00140000/AppleUSB20Hub@00140000/AppleUSB20HubPort@00143000/Belkin USB-C Multimedia Hub@00143000
+18-02-2023 23:06:29 	Manufacturer=Belkin International
+18-02-2023 23:06:29 	Product=Belkin USB-C Multimedia Hub
+18-02-2023 23:06:29 	FriendlyName=Belkin USB-C Multimedia Hub
+18-02-2023 23:06:29 	SN=0000000000000001
+18-02-2023 23:06:29 	VID=1293
+18-02-2023 23:06:29 	PID=2346
+18-02-2023 23:06:29 	Class=17
+18-02-2023 23:06:29 	SubClass=0
+18-02-2023 23:06:29 	Protocol=0
+18-02-2023 23:06:29 AddUSBConnection VID:050d PID:092a Manufacturer:Belkin International Product:Belkin USB-C Multimedia Hub
+18-02-2023 23:06:30 Read device database error:System.Data.SQLite.SQLiteException (0x80004005): SQLite error
+no such table: t_deviceinfo
+  at System.Data.SQLite.SQLite3.Prepare (System.Data.SQLite.SQLiteConnection cnn, System.String strSql, System.Data.SQLite.SQLiteStatement previous, System.UInt32 timeoutMS, System.String& strRemain) [0x00236] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.BuildNextCommand () [0x000eb] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.GetStatement (System.Int32 index) [0x0000b] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteCommand.GetStatement(int)
+  at System.Data.SQLite.SQLiteDataReader.NextResult () [0x000db] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteDataReader..ctor (System.Data.SQLite.SQLiteCommand cmd, System.Data.CommandBehavior behave) [0x00051] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.SQLite.SQLiteDataReader..ctor(System.Data.SQLite.SQLiteCommand,System.Data.CommandBehavior)
+  at System.Data.SQLite.SQLiteCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x00006] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader (System.Data.CommandBehavior behavior) [0x00000] in <11ca4cdea1f442cc9806e1ea6da122b4>:0 
+  at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader (System.Data.CommandBehavior behavior) [0x00000] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.FillInternal (System.Data.DataSet dataset, System.Data.DataTable[] datatables, System.Int32 startRecord, System.Int32 maxRecords, System.String srcTable, System.Data.IDbCommand command, System.Data.CommandBehavior behavior) [0x0003f] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable[] dataTables, System.Int32 startRecord, System.Int32 maxRecords, System.Data.IDbCommand command, System.Data.CommandBehavior behavior) [0x0007c] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at System.Data.Common.DbDataAdapter.Fill (System.Data.DataTable dataTable) [0x00034] in <d9067a07a82148d1800232c0302a3e4e>:0 
+  at (wrapper remoting-invoke-with-check) System.Data.Common.DbDataAdapter.Fill(System.Data.DataTable)
+  at WMM.Common.Data.SqliteHelper+CommandDataAdapter.FillTable () [0x00019] in <16f25378cdf4493b9972a61214a9dfd2>:0 
+  at WMM.Common.Data.SqliteHelper.ExecuteDataTable (System.String cmdText, System.Data.SQLite.SQLiteParameter[] p) [0x00010] in <16f25378cdf4493b9972a61214a9dfd2>:0 
+  at WMM.Common.Data.SqliteHelper.ExecuteDataTable (System.String cmdText) [0x00000] in <16f25378cdf4493b9972a61214a9dfd2>:0 
+  at WMM.Device.Connection.USBDriverManager.GetDeviceInfo (WMM.Device.DeviceNodeInfo devinfo) [0x003a5] in <164ae7037fda4f9b974c53f366bc5928>:0 
+18-02-2023 23:06:30 USBDeviceBaseInfo::CreateUnknownBaseInfo VID:050d PID:092a Manufacturer:Belkin International Product:Belkin USB-C Multimedia Hub
+18-02-2023 23:06:30 	FriendlyName=
+18-02-2023 23:06:30 MacOS  StartEnumeratorWorker bFisrtScan end.
+18-02-2023 23:06:30 MacUsb DeviceDisconnectCallback 
+18-02-2023 23:06:30 ConnectionScanTask End
+18-02-2023 23:06:30 AddUSBConnection deviceId: 000081010004505E0E91001E
+18-02-2023 23:06:30 ConnectionHub.FoundDevice
+18-02-2023 23:06:30 	Id=000081010004505E0E91001E
+18-02-2023 23:06:30 	VID=0
+18-02-2023 23:06:30 	PID=0
+18-02-2023 23:06:30 	Class=0
+18-02-2023 23:06:30 	SubClass=0
+18-02-2023 23:06:30 	Protocol=0
+18-02-2023 23:06:30 Ignored!
+18-02-2023 23:06:30 AddUSBConnection deviceId: 001000001
+18-02-2023 23:06:30 AddUSBConnection deviceId: 573736364550333920202020
+18-02-2023 23:06:30 AddUSBConnection deviceId: 0000000000000001
+18-02-2023 23:06:30 ConnectionHub.RemoveConnection(IOService:/AppleARMPE/arm-io/AppleT600xIO/usb-drd2@2280000/AppleT6000USBXHCI@02000000/usb-drd2-port-hs@02100000/iPhone@02100000, 000081010004505E0E91001E)
+18-02-2023 23:06:34 Download Driver DB Ok, Version=4.0.1428646627
+18-02-2023 23:06:34 Replace DriverDb Ok
+18-02-2023 23:07:27 <MainPage> gotobackupPage...
+18-02-2023 23:07:27 <BackupsPage> :param:False_activePage:True
+18-02-2023 23:08:26 Access to the path '/Users/avinashbnaik/Library/Application Support/MobileSync/Backup' is denied.
+18-02-2023 23:09:14 Access to the path '/Users/avinashbnaik/Library/Application Support/MobileSync/Backup' is denied.
+18-02-2023 23:11:42 <MainPage> gotobackupPage...
+18-02-2023 23:11:42 <BackupsPage> :param:False_activePage:False
+18-02-2023 23:11:46 Access to the path '/Users/avinashbnaik/Library/Application Support/MobileSync/Backup' is denied.
+18-02-2023 23:27:48 Transfer clear cache dir /Users/avinashbnaik/.config/Wondershare/Dr.Fone/DrFoneRecovery
+18-02-2023 23:27:48 ok
